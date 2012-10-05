@@ -8,5 +8,11 @@ ARGF.each do |line|
 end
 
 counts.sort_by {|k,v| k}.each do |word, total|
-  puts "#{$$} -> #{word}\t#{total}"
+  # puts "#{$$} -> #{word}\t#{total}"
+  puts "#{word}\t#{total}"
 end
+
+# counts.each do |word, total|
+#   # puts "#{$$} -> #{word}\t#{total}"
+#   puts "#{word}\t#{total}"
+# end
